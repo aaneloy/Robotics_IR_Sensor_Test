@@ -24,6 +24,7 @@ void loop() {
   sensorValue1 = analogRead(analogInPin1);
   sensorValue2 = analogRead(analogInPin2);
   sensorValue3 = analogRead(analogInPin3);
+ 
 
   //Serial.print("sensor = " );                       
   Serial.println(sensorValue0);
